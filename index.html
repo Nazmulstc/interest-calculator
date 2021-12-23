@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>INTEREST CALCULATOR</h1>
+      <div action="#">
+        <div class="input-item">
+          <label for="loand-amount">Amount:</label>
+          <input type="text" id="loand-amount" />
+        </div>
+        <div class="input-item">
+          <label for="interest-rate">Interest Rate:</label>
+          <select name="" id="interest-rate">
+            <option value="0">0</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+          </select>
+        </div>
+        <div class="input-item">
+          <label for="years">Term Of Years:</label>
+          <select name="" id="years">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <p style="color: red; font-weight: bold" id="result"></p>
+        <button type="submit" id="calculate">Calculate Interest</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
